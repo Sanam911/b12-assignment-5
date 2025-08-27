@@ -28,7 +28,7 @@
             </div>
             <div class="flex items-center gap-2">
                 <button class="flex items-center gap-2 px-4 py-2 rounded-3xl bg-[#41FF6B1A]">
-                    <span class="font-semibold">0</span>
+                    <span id="heart-count" class="font-semibold">0</span>
                     <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
                 </button>
                 <button class="flex items-center gap-2 px-4 py-2 rounded-3xl bg-[#41FF6B1A] ">
@@ -63,7 +63,7 @@
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-emergency" class=" fa-regular fa-heart"></i>
                     </div>
                     <div>
                         <h1 class="font-bold text-[16px]">National Emergency Number</h1>
@@ -87,12 +87,12 @@
                 </div>
 
                 <!-- card police -->
-                <div class="police-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
+                <div  class="police-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#DFEFFF] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/police.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-police" class=" fa-regular fa-heart"></i>
                     </div>
                     <div>
                         <h1 class="font-bold text-[16px]">Police Helpline Number</h1>
@@ -121,7 +121,7 @@
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/fire-service.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-fire" class="fa-regular fa-heart"></i>
                     </div>
                     <div>
                         <h1 class="font-bold text-[16px]">Fire Service Number</h1>
@@ -150,7 +150,7 @@
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/fire-service.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-ambulance" class="fa-regular fa-heart"></i>
                     </div>
                     <div>
                         <h1 class="font-bold text-[16px]">Ambulance Service</h1>
@@ -179,11 +179,11 @@
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-help" class="fa-regular fa-heart"></i>
                     </div>
                     <div>
-                        <h1 class="font-bold text-[16px]">Ambulance Service</h1>
-                        <p class="text-[#5C5C5C] text-[14px]">Ambulance</p>
+                        <h1 class="font-bold text-[16px]">Women & Child Helpline</h1>
+                        <p class="text-[#5C5C5C] text-[14px]">Women & Child Helpline</p>
                     </div>
                     <div>
                         <h1 class="font-bold text-[20px]">109</h1>
@@ -208,7 +208,7 @@
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+                        <i id="heart-corruption" class="fa-regular fa-heart"></i>
                     </div>
                     <div>
                         <h1 class="font-bold text-[16px]">Anti-Corruption Helpline</h1>
@@ -272,6 +272,10 @@
             </div>
         </section>
     </main>
+
+
+    <!-- js script link -->
+     <script src="./sripts/script.js"></script>
 </body>
 
 </html>
