@@ -28,11 +28,11 @@
             </div>
             <div class="flex items-center gap-2">
                 <button class="flex items-center gap-2 px-4 py-2 rounded-3xl bg-[#41FF6B1A]">
-                    <span>0</span>
+                    <span class="font-semibold">0</span>
                     <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
                 </button>
-                <button class="flex items-center gap-2 px-4 py-2 rounded-3xl bg-[#41FF6B1A]">
-                    <span>0</span>
+                <button class="flex items-center gap-2 px-4 py-2 rounded-3xl bg-[#41FF6B1A] ">
+                    <span class="font-semibold">100</span>
                     <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
                 </button>
                 <button class="bg-[#00A63E] px-4 py-2 rounded-3xl text-white font-inter font-semibold"><span>0</span>
@@ -54,11 +54,11 @@
 
 
         <!-- main section -->
-        <section class="main flex flex-col  lg:h-[100vh]  lg:flex-row justify-between  gap-10 px-5">
+        <section class="main flex flex-col  lg:h-[100vh]  lg:flex-row justify-between  gap-5 px-5">
             <!-- card section -->
             <div class="card-container grid w-full md:grid-cols-2 lg:grid-cols-3 gap-5 lg:w-2/3">
                 <!-- card-emergency -->
-                <div class="emergency-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="emergency-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
@@ -87,7 +87,7 @@
                 </div>
 
                 <!-- card police -->
-                <div class="police-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="police-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#DFEFFF] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/police.png" alt="">
@@ -116,7 +116,7 @@
                 </div>
 
                 <!-- card Fire Service  -->
-                <div class="fire-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="fire-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/fire-service.png" alt="">
@@ -145,7 +145,7 @@
                 </div>
 
                 <!-- Ambulance Service -->
-                <div class="ambulance-card  bg-white p-5 flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="ambulance-card  bg-white p-5 flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/fire-service.png" alt="">
@@ -174,7 +174,7 @@
                 </div>
 
                 <!-- Women & Child Helpline -->
-                <div class="women-help-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="women-help-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
@@ -203,7 +203,7 @@
                 </div>
 
                 <!-- Anti-Corruption Helpline -->
-                <div class="anti-corruption-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl">
+                <div class="anti-corruption-card  bg-white p-5  flex flex-col justify-center gap-4 rounded-3xl shadow-lg">
                     <div class=" flex justify-between items-center">
                         <div class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-xl">
                             <img class="h-[30px] w-[30px] p-1" src="./assets/emergency.png" alt="">
@@ -237,7 +237,7 @@
                 <!-- text and clear all btn -->
                 <div class="flex justify-between items-center ">
                     <div>
-                        <h3 class="text-[16px]"><i class="fa-regular fa-clock"></i> Call History</h3>
+                        <h3 class="text-[16px] font-bold"><i class="fa-regular fa-clock"></i> Call History</h3>
                     </div>
 
                     <button
@@ -247,7 +247,8 @@
 
                 <!-- call history sec -->
                 <div>
-                    <div id="call-h-card" class="flex justify-between items-center mt-[30px] bg-[#FAFAFA] p-5 rounded-xl">
+                    <div id="call-h-card"
+                        class="flex justify-between items-center mt-[30px] bg-[#FAFAFA] p-5 rounded-xl">
                         <div>
                             <h3 class="font-semibold">Fire Service Number</h3>
                             <p class="text-[#5C5C5C]">999</p>
@@ -256,7 +257,8 @@
                             <p>Time</p>
                         </div>
                     </div>
-                    <div id="call-h-card" class="flex justify-between items-center mt-[30px] bg-[#FAFAFA] p-5 rounded-xl">
+                    <div id="call-h-card"
+                        class="flex justify-between items-center mt-[30px] bg-[#FAFAFA] p-5 rounded-xl">
                         <div>
                             <h3 class="font-semibold">Fire Service Number</h3>
                             <p class="text-[#5C5C5C]">999</p>
