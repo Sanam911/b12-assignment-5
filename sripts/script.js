@@ -358,38 +358,52 @@ document.getElementById("btn-clear-history").addEventListener("click", function(
 
 
 // ********---- copy button functionality sec ------********
+
+
+function copyNumber (id){
+     const number = document.getElementById(id).innerText
+    
+    navigator.clipboard.writeText(number)
+}
 // for emergency sec
 document.getElementById("btn-copy-emergency").addEventListener("click", function(){
+   
+    copyNumber("num-emergency")
     alert("📋 Number copied - 999")
     increaseCount("copy-count")
 })
 
 // for police sec
 document.getElementById("btn-copy-police").addEventListener("click", function(){
+    copyNumber("num-police")
     alert("📋 Number copied - 999")
     increaseCount("copy-count")
 })
 
 // for fire sec
 document.getElementById("btn-copy-fire").addEventListener("click", function(){
+    copyNumber("num-fire")
     alert("📋 Number copied - 999")
     increaseCount("copy-count")
 })
 
 // for ambulance sec
 document.getElementById("btn-copy-ambulance").addEventListener("click", function(){
+    copyNumber("num-ambulance")
     alert("📋 Number copied - 1994-999999")
     increaseCount("copy-count")
 })
 
 // for women & child sec
 document.getElementById("btn-copy-women").addEventListener("click", function(){
+    copyNumber("num-women")
     alert("📋 Number copied - 109")
     increaseCount("copy-count")
 })
 
 // for anti-corruption sec
 document.getElementById("btn-copy-corruption").addEventListener("click", function(){
+    copyNumber("num-corruption")
     alert("📋 Number copied - 106")
     increaseCount("copy-count")
 })
